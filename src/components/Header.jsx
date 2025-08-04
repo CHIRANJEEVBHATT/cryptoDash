@@ -31,15 +31,17 @@ const Header = () => {
       <div className="flex justify-between items-center px-6 py-3">
         
         <div className="flex items-center space-x-3">
+          <Link to={'/'}>
           <img src="cryptologo.png" alt="Crypto Logo" className="h-12 w-12" />
           <h1 className="text-2xl font-bold">CryptoDash</h1>
+          </Link>
   </div>
 
         <ul className="hidden md:flex space-x-6 text-lg">
-          <Link className="hover:text-teal-400 transition cursor-pointer">Home</Link>
+          <Link to={'/'} className="hover:text-teal-400 transition cursor-pointer">Home</Link>
           <Link className="hover:text-teal-400 transition cursor-pointer">Features</Link>
           <Link className="hover:text-teal-400 transition cursor-pointer">Pricing</Link>
-          <Link className="hover:text-teal-400 transition cursor-pointer">Blog</Link>
+          <Link to={'/blog'} className="hover:text-teal-400 transition cursor-pointer">Blog</Link>
         </ul>
 
         <div className="hidden md:flex items-center space-x-4">
