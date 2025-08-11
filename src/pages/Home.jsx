@@ -41,7 +41,7 @@ const Home = () => {
     <button
       type="submit"
       className="absolute top-1/2 right-2 -translate-y-1/2 bg-blue-600 hover:bg-blue-700 text-white px-3 sm:px-6 py-2 rounded-lg text-sm sm:text-base"
-    > Submit</button>
+    > Search 🔍</button>
   </div>
 </form>
 </div>
